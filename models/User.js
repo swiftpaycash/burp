@@ -51,11 +51,11 @@ first_name: {
   },
  code:{
     type: String,
-    required: true
+    required: false
  },
   referalcode:{
     type: String,
-    required: false
+    required: true
   },
   date: {
     type: Date,
